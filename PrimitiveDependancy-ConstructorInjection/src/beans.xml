@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id="s" class="com.model.Student">
+      
+      <constructor-arg name="rollno" value="1000"></constructor-arg>
+      <constructor-arg name="sname" value="Akash"></constructor-arg>
+      <constructor-arg name="s_address" value="Pune"></constructor-arg>
+      
+       </bean>
+        </beans>

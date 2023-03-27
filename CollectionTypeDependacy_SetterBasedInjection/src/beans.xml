@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+       <bean id="s" class="com.model.Student">
+      <property name="name">
+      <list>
+      <value>Kiran</value>
+      <value>Abhi</value>
+      </list>
+      </property>
+      
+      
+      <property name="rollno">
+      <set>
+      <value>11</value>
+      <value>22</value>
+      </set>
+      </property>
+      
+      <property name="StudentId">
+     <map>
+     <entry key="Kiran" value="100"></entry>
+     <entry key="Abji" value="200"></entry>
+     </map>
+      
+      
+      </property>
+     
+       </bean>
+       
+       
+       
+        </beans>
